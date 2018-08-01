@@ -19,63 +19,6 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG"
         crossorigin="anonymous">
-       <style>
-        .blog-content {
-            max-height: 100px;
-            overflow: hidden;
-            position: relative;
-        }
-        .blog-content:after {
-            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 90%);
-            content: "";
-            position: absolute;
-            z-index: 1;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 4em;
-        }
-        .blog-content>figure>img {
-            width: 100%;
-        }
-        .modal-body>figure>img {
-            width: 100%;
-        }
-        .modal-body>figure>figure>img {
-            width: 100%;
-        }
-        @media only screen and (min-width: 600px) {
-            .mybeautifulclass {
-                max-height: 10em;
-                overflow: hidden;
-            }
-            .blog-content {
-                font-size: 0.7em;
-            }
-            .cute-btn {
-              padding-left: 3em;
-              padding-right: 3em;
-            }
-        }
-        @media only screen and (max-width: 600px) {
-            .card:hover {
-                transform: scale(1.0) !important;
-            }
-            .display-3 {
-                font-size: 4em;
-            }
-            .cute-btn {
-              display: block;
-              width: 100%;
-              text-align: center;
-              border-radius: 0px !important;
-            }
-        }
-        .cute-btn {
-          border-radius: 0px !important;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-    </style>
 </head>
 
 <body>
@@ -107,7 +50,7 @@
             <div class="row">
                 <div class="col-md-3 offset-md-10">
                     <br>
-                    <a target="_blank" href="https://medium.com/the-programming-club-iit-indore/" class="btn btn-primary btn-lg cute-btn">See More</a>
+                    <a target="_blank" href="https://medium.com/the-programming-club-iit-indore/" class="btn btn-primary btn-lg cute-btn accent">See More</a>
                 </div>
             </div>
         </div>
@@ -116,7 +59,7 @@
         <div class="overlay lighten" id="secondaryOverlay">
             <div class="container">
                 <svg width="42" height="14">
-                    <rect width="48" height="12" fill="rgb(96, 111, 200)"></rect>
+                    <rect width="48" height="12" fill="rgb(25, 118, 210)"></rect>
                 </svg>
                 <h1 class="display-3 text-dark">Events</h1>
                 <event-component></event-component>
@@ -132,14 +75,22 @@
                 <h1 class="display-3">Lorem Ipsum</h1>
                 <div class="container slack-content" style="width: 100%;">
                     <div class="container" style="width: 100%; margin-top: 1em; padding: 0;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
                     </div>
                     <div class="container" style="width: 100%; margin-top: 1.5em; padding: 0;">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
                     </div>
                     <div class="" id="" style="margin-top: 1.5em; padding: 0;text-align: center;">
-                        <a href="index.html" class="btn btn-primary btn-lg cute-btn" role="button" aria-pressed="true">
-                                Join US!
+                        <a href="index.html" class="btn btn-primary btn-lg cute-btn btn-dark" role="button" aria-pressed="true">
+                            Join US!
                         </a>
                     </div>
                 </div>

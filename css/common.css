@@ -3,9 +3,11 @@
     font-size: 10px;
   }
 }
+
 .navbar {
   font-family: "Montserrat", sans-serif;
 }
+
 .navbar .navbar-brand {
   font-weight: bold;
   letter-spacing: 0.15em;
@@ -16,8 +18,10 @@
   font-size: 15px;
   padding: 0.08em 1em;
   color: white;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
+
 .naav:hover {
   text-decoration: none;
   color: rgba(25, 118, 210, 0.75);
@@ -37,26 +41,30 @@
   font-size: 1.25em;
   padding: 0.25em 0em;
 }
+
 #footer i {
   font-size: 1.25em;
 }
+
 #footer p {
   display: inline;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   vertical-align: 0.05em;
 }
+
 #footer a {
   border: 0.1em white solid;
   color: white;
   border-radius: 1em;
   padding: 0.25em 1em;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
+
 #footer a:hover {
   background-color: white;
   color: #343a40;
   text-decoration: none;
 }
-
 /*# sourceMappingURL=common.css.map */

@@ -3,9 +3,11 @@
     font-size: 10px;
   }
 }
+
 .navbar {
   font-family: "Montserrat", sans-serif;
 }
+
 .navbar .navbar-brand {
   font-weight: bold;
   letter-spacing: 0.15em;
@@ -16,8 +18,10 @@
   font-size: 15px;
   padding: 0.08em 1em;
   color: white;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
+
 .naav:hover {
   text-decoration: none;
   color: rgba(25, 118, 210, 0.75);
@@ -37,22 +41,27 @@
   font-size: 1.25em;
   padding: 0.25em 0em;
 }
+
 #footer i {
   font-size: 1.25em;
 }
+
 #footer p {
   display: inline;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   vertical-align: 0.05em;
 }
+
 #footer a {
   border: 0.1em white solid;
   color: white;
   border-radius: 1em;
   padding: 0.25em 1em;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
+
 #footer a:hover {
   background-color: white;
   color: #343a40;
@@ -77,32 +86,44 @@
   background-image: url("/img/home/main.jpg");
   height: 100%;
 }
+
 #main #mainOverlay {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(25, 118, 210, 0.8)), color-stop(rgba(71, 115, 206, 0.8)), color-stop(rgba(96, 111, 200, 0.8)), color-stop(rgba(114, 108, 194, 0.8)), to(rgba(129, 105, 187, 0.8)));
   background-image: linear-gradient(to right bottom, rgba(25, 118, 210, 0.8), rgba(71, 115, 206, 0.8), rgba(96, 111, 200, 0.8), rgba(114, 108, 194, 0.8), rgba(129, 105, 187, 0.8));
 }
 
 #blogposts {
   padding: 5em 0em;
 }
+
 #blogposts .display-3 {
   padding: 0.25em 0em;
 }
+
 #blogposts .card {
   background-color: white;
   border-radius: 0.5em;
   margin-bottom: 1em;
-  box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+          box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
   font-family: "Open Sans", sans-serif;
   font-size: 1.25em;
+  -webkit-transition: -webkit-transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
+
 #blogposts .card:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
+
 #blogposts .card .card-title {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
+
 #blogposts .card img {
   border-radius: 0.5em 0.5em 0em 0em;
 }
@@ -111,32 +132,42 @@
   background-image: url("/img/home/other.jpg");
   height: 100%;
 }
+
 #secondary #secondaryOverlay {
   padding: 5em 0em;
 }
+
 #secondary #secondaryOverlay .display-3 {
   padding: 0.25em 0em;
 }
+
 #secondary .lighten {
   background-color: rgba(255, 255, 255, 0.75);
 }
+
 #secondary #carouselId .carousel-inner {
   border-radius: 1.25em;
   min-height: 30em;
-  box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+          box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
 }
+
 #secondary #carouselId img {
   min-height: 30em;
-  filter: brightness(0.4);
+  -webkit-filter: brightness(0.4);
+          filter: brightness(0.4);
 }
+
 #secondary #carouselId .carousel-caption {
   top: 10%;
   text-align: left;
 }
+
 #secondary #carouselId .display-3 {
   font-size: 2.5em;
   letter-spacing: 0px;
 }
+
 #secondary #carouselId p {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25em;
@@ -155,14 +186,80 @@
 
 .cute-btn {
   font-family: "Montserrat", sans-serif;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
 }
 
 .slack {
-  background: #8E2DE2 !important;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2) !important;
-  background: linear-gradient(to right, #4A00E0, #8E2DE2) !important;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#1976d2), color-stop(#4773ce), color-stop(#606fc8), color-stop(#726cc2), to(#8169bb)) !important;
+  background-image: linear-gradient(to right bottom, #1976d2, #4773ce, #606fc8, #726cc2, #8169bb) !important;
+}
+
+.accent {
+  background-color: #1976d2;
 }
 
 .text-white {
   color: white;
 }
+
+.blog-content {
+  max-height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.blog-content:after {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(90%, white));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), white 90%);
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4em;
+}
+
+.blog-content > figure > img {
+  width: 100%;
+}
+
+.modal-body > figure > img {
+  width: 100%;
+}
+
+.modal-body > figure > figure > img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .mybeautifulclass {
+    max-height: 10em;
+    overflow: hidden;
+  }
+  .blog-content {
+    font-size: 0.7em;
+  }
+  .cute-btn {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card:hover {
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+  }
+  .display-3 {
+    font-size: 4em;
+  }
+  .cute-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=home.css.map */

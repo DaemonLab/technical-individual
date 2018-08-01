@@ -3,9 +3,11 @@
     font-size: 10px;
   }
 }
+
 .navbar {
   font-family: "Montserrat", sans-serif;
 }
+
 .navbar .navbar-brand {
   font-weight: bold;
   letter-spacing: 0.15em;
@@ -16,8 +18,10 @@
   font-size: 15px;
   padding: 0.08em 1em;
   color: white;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
+
 .naav:hover {
   text-decoration: none;
   color: rgba(25, 118, 210, 0.75);
@@ -37,22 +41,27 @@
   font-size: 1.25em;
   padding: 0.25em 0em;
 }
+
 #footer i {
   font-size: 1.25em;
 }
+
 #footer p {
   display: inline;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   vertical-align: 0.05em;
 }
+
 #footer a {
   border: 0.1em white solid;
   color: white;
   border-radius: 1em;
   padding: 0.25em 1em;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
 }
+
 #footer a:hover {
   background-color: white;
   color: #343a40;
@@ -60,13 +69,15 @@
 }
 
 body {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#1976d2), color-stop(#4773ce), color-stop(#606fc8), color-stop(#726cc2), to(#8169bb));
   background-image: linear-gradient(to right bottom, #1976d2, #4773ce, #606fc8, #726cc2, #8169bb);
 }
 
 .team {
   text-align: center;
   overflow: hidden;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .col-lg-4 {
@@ -79,39 +90,47 @@ body {
   border-radius: 2em;
   margin-bottom: 1em;
   font-size: 1.8em;
-  box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+          box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
 }
+
 .card .card-title {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8em;
   font-weight: bold;
   margin-bottom: 0.12em;
 }
+
 .card .card-text {
   font-family: "Open Sans", sans-serif;
   padding: 0em;
   margin: 0em;
 }
+
 .card .profile-container {
   padding: 2em 3em 0em 3em;
 }
+
 .card .profile-container img {
   border-radius: 50%;
 }
+
 .card .card-body {
   font-size: 15px;
 }
 
 #app a {
   color: #33393f;
+  -webkit-transition: color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out;
 }
+
 #app a:hover {
   color: rgba(51, 57, 63, 0.75);
   text-decoration: none;
 }
+
 #app i {
   font-size: 1.3em;
 }
-
 /*# sourceMappingURL=team.css.map */
