@@ -83,7 +83,7 @@ Vue.component("project-component", {
 ],
 "2018": [
 	{
-          image: 'https://pclubiiti.github.io/img/project/ml1.svg',
+          image: 'https://pclubiiti.github.io/img/project/software2.svg',
           imagealt: 'ml1',
           modalhref: '#projectModal7',
           modalhreftitle: 'projectModal7',
@@ -94,18 +94,18 @@ Vue.component("project-component", {
           domain: 'Machine Learning',
         },
 	{
-          image: 'https://pclubiiti.github.io/img/project/ml1.svg',
+          image: 'https://pclubiiti.github.io/img/project/game1.png',
           imagealt: 'ml1',
           modalhref: '#projectModal7',
           modalhreftitle: 'projectModal7',
-          title: 'Nightmare (video game)',
+          title: 'Nightmare',
           content: 'Nightmare is survival shooter video game developed using Unity3D engine and is written in C#. Its a simple arcade style shooter where you kill enemies and earn points and create High Score. ',
           github: 'https://github.com/Ronak-B/IITISoC_Project/tree/master/Survival%20Shooter',
           date: '21st july 2017',
           domain: 'Machine Learning',
         },
 	{
-          image: 'https://pclubiiti.github.io/img/project/ml1.svg',
+          image: '../img/project/VueLogo.png',
           imagealt: 'ml1',
           modalhref: '#projectModal7',
           modalhreftitle: 'projectModal7',
@@ -116,7 +116,7 @@ Vue.component("project-component", {
           domain: 'Machine Learning',
         },
 	{
-          image: 'https://pclubiiti.github.io/img/project/ml1.svg',
+          image: '../img/project/VueLogo.png',
           imagealt: 'ml1',
           modalhref: '#projectModal7',
           modalhreftitle: 'projectModal7',
@@ -127,7 +127,7 @@ Vue.component("project-component", {
           domain: 'Machine Learning',
         },
 	{
-          image: 'https://pclubiiti.github.io/img/project/ml1.svg',
+          image: '../img/project/VueLogo.png',
           imagealt: 'ml1',
           modalhref: '#projectModal7',
           modalhreftitle: 'projectModal7',
