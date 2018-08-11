@@ -1,62 +1,82 @@
 @media (max-width: 720px) {
   body {
-    font-size: 10px; } }
+    font-size: 10px;
+  }
+}
 .navbar {
-  font-family: "Montserrat", sans-serif; }
-  .navbar .navbar-brand {
-    font-weight: bold;
-    letter-spacing: 0.15em; }
+  font-family: "Montserrat", sans-serif;
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
 
 .naav {
   border-radius: 1em;
   font-size: 15px;
   padding: 0.08em 1em;
   color: white;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out; }
-  .naav:hover {
-    text-decoration: none;
-    color: rgba(25, 118, 210, 0.75);
-    background-color: white; }
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+.naav:hover {
+  text-decoration: none;
+  color: rgba(25, 118, 210, 0.75);
+  background-color: white;
+}
 
 .display-3 {
   font-size: 5em;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   letter-spacing: -3px;
-  line-height: 0.95em; }
+  line-height: 0.95em;
+}
 
 #footer h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25em;
-  padding: 0.25em 0em; }
+  padding: 0.25em 0em;
+}
 #footer i {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+}
 #footer p {
   display: inline;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
-  vertical-align: 0.05em; }
+  vertical-align: 0.05em;
+}
 #footer a.rounded {
   border: 0.1em white solid;
   color: white;
   border-radius: 1em !important;
   padding: 0.25em 1em;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out; }
-  #footer a.rounded:hover {
-    background-color: white;
-    color: #343a40;
-    text-decoration: none; }
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+#footer a.rounded:hover {
+  background-color: white;
+  color: #343a40;
+  text-decoration: none;
+}
 
 body {
-  background-image: linear-gradient(to right bottom, #1976d2, #4773ce, #606fc8, #726cc2, #8169bb); }
+  background-image: linear-gradient(to right bottom, #1976d2, #4773ce, #606fc8, #726cc2, #8169bb);
+}
 
+@media (max-width: 720px) {
+  #members {
+    padding: 30px;
+  }
+}
 .team {
   text-align: center;
   overflow: hidden;
-  align-content: center; }
+  align-content: center;
+}
 
 .col-lg-4 {
-  padding: 1.25em 1.25em; }
+  padding: 1.25em 1.25em;
+}
 
 .card {
   background-color: white;
@@ -64,30 +84,39 @@ body {
   border-radius: 2em;
   margin-bottom: 1em;
   font-size: 1.8em;
-  box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6); }
-  .card .card-title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.8em;
-    font-weight: bold;
-    margin-bottom: 0.12em; }
-  .card .card-text {
-    font-family: "Open Sans", sans-serif;
-    padding: 0em;
-    margin: 0em; }
-  .card .profile-container {
-    padding: 2em 3em 0em 3em; }
-    .card .profile-container img {
-      border-radius: 50%; }
-  .card .card-body {
-    font-size: 15px; }
+  box-shadow: 0.25em 0.25em 1.5em -0.15em rgba(0, 0, 0, 0.6);
+}
+.card .card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 0.12em;
+}
+.card .card-text {
+  font-family: "Open Sans", sans-serif;
+  padding: 0em;
+  margin: 0em;
+}
+.card .profile-container {
+  padding: 40px 50px 4px;
+}
+.card .profile-container img {
+  border-radius: 50%;
+}
+.card .card-body {
+  font-size: 15px;
+}
 
 #app a {
   color: #33393f;
-  transition: color 0.15s ease-in-out; }
-  #app a:hover {
-    color: rgba(51, 57, 63, 0.75);
-    text-decoration: none; }
+  transition: color 0.15s ease-in-out;
+}
+#app a:hover {
+  color: rgba(51, 57, 63, 0.75);
+  text-decoration: none;
+}
 #app i {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+}
 
 /*# sourceMappingURL=team.css.map */

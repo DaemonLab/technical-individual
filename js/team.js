@@ -11,7 +11,7 @@ const members = [
   {
     id: 2,
     name: "ASHUTOSH BANG",
-    description: "COMPETITIVE PROGRAMMING",
+    description: "Competitive Programming",
     img: "https://avatars0.githubusercontent.com/u/24517273?s=460&v=4",
     year: "Third Year",
     linkGit: "https://github.com/ashutoshbang",
@@ -20,7 +20,7 @@ const members = [
   {
     id: 3,
     name: "MOHIT NATHRANI",
-    description: "WEB DEVELOPMENT AND COMPETITIVE PROGRAMMING",
+    description: "Web Development and Competitive Programming",
     img: "https://avatars2.githubusercontent.com/u/30346159?s=460&v=4",
     contact: "9999999999",
     year: "Third Year",
@@ -30,7 +30,7 @@ const members = [
   {
     id: 4,
     name: "PRIYANSHU",
-    description: "WEB DEVELOPMENT AND COMPETITIVE PROGRAMMING",
+    description: "Web Development and Competitive Programming",
     img: "https://avatars1.githubusercontent.com/u/28222108?s=460&v=4",
     year: "Third Year",
     linkGit: "https://github.com/priyanshuvarsh",
@@ -39,18 +39,18 @@ const members = [
   {
     id: 5,
     name: "JOSHI NIRANJAN",
-    description: "WEB AND SOFTWARE DEVELOPMENT",
+    description: "Web and Software Development",
     img: "https://avatars2.githubusercontent.com/u/29325626?s=460&v=4",
-    year: "First Year",
+    year: "Third Year",
     linkGit: "https://github.com/Niranjan-J",
     linkLin: ""
   },
   {
     id: 6,
     name: "DAANISH MAHAJAN",
-    description: "COMPETITIVE PROGRAMMING",
+    description: "Competitive Programming",
     img: "https://avatars0.githubusercontent.com/u/19322630?s=460&v=4",
-    year: "First Year",
+    year: "Third Year",
     linkGit: "https://github.com/FireWithin",
     linkLin: ""
   }

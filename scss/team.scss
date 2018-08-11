@@ -10,6 +10,13 @@ body {
     #8169bb
   );
 }
+
+@media (max-width: 720px) {
+    #members {
+        padding: 30px;
+    }
+}
+
 .team {
   text-align: center;
   overflow: hidden;
@@ -37,7 +44,7 @@ body {
     margin: 0em;
   }
   .profile-container {
-    padding: 2em 3em 0em 3em;
+    padding: 40px 50px 4px;
     img {
       border-radius: 50%;
     }

@@ -6,7 +6,7 @@ before_install:
   - openssl enc -aes-256-cbc -d -md md5 -in sshkey.pem.enc -out sshkey.pem -k $PASSWORD
 script:
   - chmod 600 sshkey.pem
-  - rsync -rcve 'ssh -i sshkey.pem' . progclub@people.iiti.ac.in:~/public_html/ --ignore-existing --exclude '.git/**' --delete-after
+  - scp -i sshkey.pem -r . progclub@people.iiti.ac.in:public_html/
 branches:
   only:
     - home
